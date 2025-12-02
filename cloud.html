@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WoosCloud Storage - Secure, fast, and affordable cloud storage solution">
+    <title>WoosCloud Storage - Secure Cloud Storage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>WoosAI</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="cloud.html" class="active">Cloud</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html" class="btn-nav">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="cloud-hero">
+        <div class="container">
+            <div class="cloud-badge">☁️ Cloud Storage</div>
+            <h1 class="hero-title">
+                Secure Cloud Storage <span class="highlight">Made Simple</span>
+            </h1>
+            <p class="hero-subtitle">
+                Store, share, and access your files from anywhere with enterprise-grade security
+            </p>
+
+            <div class="hero-features-quick">
+                <div class="quick-feature">
+                    <i class="fas fa-bolt"></i>
+                    <span>Lightning Fast</span>
+                </div>
+                <div class="quick-feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>End-to-End Encrypted</span>
+                </div>
+                <div class="quick-feature">
+                    <i class="fas fa-globe"></i>
+                    <span>Global CDN</span>
+                </div>
+                <div class="quick-feature">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>From $0/month</span>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-primary btn-large">Start Free - 1GB</a>
+                <a href="#plans" class="btn btn-secondary btn-large">View Plans</a>
+            </div>
+
+            <!-- Upload Demo -->
+            <div class="hero-upload-demo">
+                <div class="upload-zone" onclick="alert('Sign up to start uploading!')">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Drag & Drop Files Here</h3>
+                    <p>Or click to browse • Up to 1GB per file</p>
+                    <div class="supported-formats">
+                        <span>📄 Documents</span>
+                        <span>🖼️ Images</span>
+                        <span>🎬 Videos</span>
+                        <span>📦 Archives</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Storage Stats -->
+    <section class="storage-stats">
+        <div class="container">
+            <h2 class="section-title">Trusted Storage Platform</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <div class="stat-value">5,000+</div>
+                    <div class="stat-desc">Active Users</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-database"></i>
+                    <div class="stat-value">10TB+</div>
+                    <div class="stat-desc">Data Stored</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-file"></i>
+                    <div class="stat-value">1M+</div>
+                    <div class="stat-desc">Files Uploaded</div>
+                </div>
+                <div class="stat-card highlight">
+                    <i class="fas fa-lock"></i>
+                    <div class="stat-value">99.99%</div>
+                    <div class="stat-desc">Uptime SLA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="cloud-features">
+        <div class="container">
+            <h2 class="section-title">Everything You Need</h2>
+            <p class="section-subtitle">Enterprise features at startup prices</p>
+
+            <div class="features-grid-large">
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">⚡</div>
+                    <h3>Lightning Fast Upload</h3>
+                    <p>Global CDN ensures blazing-fast upload and download speeds from anywhere in the world</p>
+                    <ul class="feature-list">
+                        <li>✅ Multi-region deployment</li>
+                        <li>✅ Parallel chunked uploads</li>
+                        <li>✅ Resume interrupted uploads</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">🔒</div>
+                    <h3>Military-Grade Security</h3>
+                    <p>Your data is protected with AES-256 encryption at rest and in transit</p>
+                    <ul class="feature-list">
+                        <li>✅ End-to-end encryption</li>
+                        <li>✅ Zero-knowledge architecture</li>
+                        <li>✅ SOC 2 compliant</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">🌐</div>
+                    <h3>Global Access</h3>
+                    <p>Access your files from anywhere, anytime, on any device</p>
+                    <ul class="feature-list">
+                        <li>✅ Web, mobile, desktop</li>
+                        <li>✅ RESTful API</li>
+                        <li>✅ WebDAV support</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">💼</div>
+                    <h3>Team Collaboration</h3>
+                    <p>Share files and folders with your team securely</p>
+                    <ul class="feature-list">
+                        <li>✅ Fine-grained permissions</li>
+                        <li>✅ Public/private links</li>
+                        <li>✅ Password protection</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">📊</div>
+                    <h3>Usage Analytics</h3>
+                    <p>Track your storage usage and file activity</p>
+                    <ul class="feature-list">
+                        <li>✅ Real-time dashboard</li>
+                        <li>✅ Download statistics</li>
+                        <li>✅ Usage alerts</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card-large">
+                    <div class="feature-icon-large">⚙️</div>
+                    <h3>Developer API</h3>
+                    <p>Integrate cloud storage into your applications</p>
+                    <ul class="feature-list">
+                        <li>✅ RESTful API</li>
+                        <li>✅ SDK for Python, Node.js</li>
+                        <li>✅ Webhook notifications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Storage Plans -->
+    <section id="plans" class="storage-plans-section">
+        <div class="container">
+            <h2 class="section-title">Choose Your Storage Plan</h2>
+            <p class="section-subtitle">Start free, upgrade as you grow</p>
+
+            <div class="plans-grid-cloud">
+                <!-- FREE Plan -->
+                <div class="plan-card-cloud">
+                    <div class="plan-header-cloud">
+                        <h3>FREE</h3>
+                        <div class="plan-price-cloud">$0<span>/month</span></div>
+                        <div class="plan-storage">1 GB Storage</div>
+                    </div>
+                    <ul class="plan-features-cloud">
+                        <li><i class="fas fa-check"></i> 1 GB Storage</li>
+                        <li><i class="fas fa-check"></i> 10 MB Max File Size</li>
+                        <li><i class="fas fa-check"></i> 100 Files Limit</li>
+                        <li><i class="fas fa-check"></i> Basic Support</li>
+                        <li><i class="fas fa-check"></i> 7 Days File History</li>
+                        <li><i class="fas fa-times"></i> No CDN</li>
+                        <li><i class="fas fa-times"></i> No API Access</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-secondary btn-block">Get Started</a>
+                </div>
+
+                <!-- STARTER Plan -->
+                <div class="plan-card-cloud featured">
+                    <div class="plan-badge-cloud">Most Popular</div>
+                    <div class="plan-header-cloud">
+                        <h3>STARTER</h3>
+                        <div class="plan-price-cloud">$5<span>/month</span></div>
+                        <div class="plan-storage">50 GB Storage</div>
+                    </div>
+                    <ul class="plan-features-cloud">
+                        <li><i class="fas fa-check"></i> 50 GB Storage</li>
+                        <li><i class="fas fa-check"></i> 100 MB Max File Size</li>
+                        <li><i class="fas fa-check"></i> Unlimited Files</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                        <li><i class="fas fa-check"></i> 30 Days File History</li>
+                        <li><i class="fas fa-check"></i> Global CDN</li>
+                        <li><i class="fas fa-check"></i> Basic API Access</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-primary btn-block">Start Free Trial</a>
+                </div>
+
+                <!-- PRO Plan -->
+                <div class="plan-card-cloud">
+                    <div class="plan-header-cloud">
+                        <h3>PRO</h3>
+                        <div class="plan-price-cloud">$15<span>/month</span></div>
+                        <div class="plan-storage">500 GB Storage</div>
+                    </div>
+                    <ul class="plan-features-cloud">
+                        <li><i class="fas fa-check"></i> 500 GB Storage</li>
+                        <li><i class="fas fa-check"></i> 1 GB Max File Size</li>
+                        <li><i class="fas fa-check"></i> Unlimited Files</li>
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                        <li><i class="fas fa-check"></i> Unlimited File History</li>
+                        <li><i class="fas fa-check"></i> Global CDN + Custom Domain</li>
+                        <li><i class="fas fa-check"></i> Full API Access</li>
+                        <li><i class="fas fa-check"></i> Team Collaboration</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                    </ul>
+                    <a href="register.html" class="btn btn-primary btn-block">Get Pro</a>
+                </div>
+            </div>
+
+            <div class="plans-note">
+                <p>All plans include 14-day free trial • No credit card required • Cancel anytime</p>
+            </div>
+
+            <!-- Plan Comparison -->
+            <div class="plan-comparison">
+                <h3>Compare Plans</h3>
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>FREE</th>
+                                <th>STARTER</th>
+                                <th>PRO</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Storage</td>
+                                <td>1 GB</td>
+                                <td>50 GB</td>
+                                <td>500 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Max File Size</td>
+                                <td>10 MB</td>
+                                <td>100 MB</td>
+                                <td>1 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Files Limit</td>
+                                <td>100</td>
+                                <td>Unlimited</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <td>CDN</td>
+                                <td>❌</td>
+                                <td>✅</td>
+                                <td>✅ + Custom</td>
+                            </tr>
+                            <tr>
+                                <td>API Access</td>
+                                <td>❌</td>
+                                <td>Basic</td>
+                                <td>Full</td>
+                            </tr>
+                            <tr>
+                                <td>Support</td>
+                                <td>Community</td>
+                                <td>Priority</td>
+                                <td>24/7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="use-cases-cloud">
+        <div class="container">
+            <h2 class="section-title">Perfect For Every Use Case</h2>
+
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">💼</div>
+                    <h4>Business Files</h4>
+                    <p>Store and share documents, presentations, and spreadsheets with your team</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">📸</div>
+                    <h4>Media Backup</h4>
+                    <p>Safely backup your photos, videos, and creative projects</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎓</div>
+                    <h4>Education</h4>
+                    <p>Share course materials and assignments with students</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">🛠️</div>
+                    <h4>Development</h4>
+                    <p>Host assets, logs, and build artifacts for your projects</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎨</div>
+                    <h4>Creative Work</h4>
+                    <p>Store high-resolution designs and source files</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">📦</div>
+                    <h4>Backups</h4>
+                    <p>Automated backups for critical data and databases</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Integration -->
+    <section class="api-section">
+        <div class="container">
+            <h2 class="section-title">Developer-Friendly API</h2>
+            <p class="section-subtitle">Integrate cloud storage into your applications</p>
+
+            <div class="api-demo">
+                <div class="api-code">
+                    <div class="code-header">
+                        <span class="code-lang">Python</span>
+                        <button class="copy-code-btn" onclick="copyCloudCode()">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                    </div>
+                    <pre><code>import requests
+
+# Upload file
+files = {'file': open('document.pdf', 'rb')}
+headers = {'Authorization': 'Bearer YOUR_API_KEY'}
+
+response = requests.post(
+    'https://api.wooscloud.com/upload',
+    files=files,
+    headers=headers
+)
+
+# Get file URL
+file_url = response.json()['url']
+print(f"File uploaded: {file_url}")
+
+# Download file
+download = requests.get(file_url)
+with open('downloaded.pdf', 'wb') as f:
+    f.write(download.content)</code></pre>
+                </div>
+
+                <div class="api-features">
+                    <h3>API Features</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> RESTful API</li>
+                        <li><i class="fas fa-check"></i> Python & Node.js SDK</li>
+                        <li><i class="fas fa-check"></i> Webhook notifications</li>
+                        <li><i class="fas fa-check"></i> Rate limiting</li>
+                        <li><i class="fas fa-check"></i> API key management</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">View API Docs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security -->
+    <section class="security-section">
+        <div class="container">
+            <h2 class="section-title">Enterprise-Grade Security</h2>
+            <p class="section-subtitle">Your data is safe with us</p>
+
+            <div class="security-features">
+                <div class="security-card">
+                    <i class="fas fa-lock"></i>
+                    <h4>AES-256 Encryption</h4>
+                    <p>Military-grade encryption for all your files</p>
+                </div>
+
+                <div class="security-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h4>Zero-Knowledge</h4>
+                    <p>We can't access your encrypted files</p>
+                </div>
+
+                <div class="security-card">
+                    <i class="fas fa-certificate"></i>
+                    <h4>SOC 2 Compliant</h4>
+                    <p>Independently audited security standards</p>
+                </div>
+
+                <div class="security-card">
+                    <i class="fas fa-history"></i>
+                    <h4>Version History</h4>
+                    <p>Recover previous versions of files</p>
+                </div>
+
+                <div class="security-card">
+                    <i class="fas fa-shield-virus"></i>
+                    <h4>Malware Scanning</h4>
+                    <p>Automatic virus and malware detection</p>
+                </div>
+
+                <div class="security-card">
+                    <i class="fas fa-key"></i>
+                    <h4>2FA Support</h4>
+                    <p>Two-factor authentication for extra security</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Start Storing Your Files Today</h2>
+            <p>Join thousands of users trusting WoosCloud Storage</p>
+            <div class="cta-buttons">
+                <a href="register.html" class="btn btn-primary btn-large">Get 1GB Free</a>
+                <a href="pricing.html" class="btn btn-secondary btn-large">View All Plans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>WoosAI</h3>
+                    <p>Making AI affordable for everyone</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="library.html">WoosAI Library</a></li>
+                        <li><a href="cloud.html">WoosCloud Storage</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Status Page</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="mailto:contact@woos-ai.com">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WoosAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function copyCloudCode() {
+            const code = document.querySelector('.api-code code').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                const btn = document.querySelector('.copy-code-btn');
+                btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                setTimeout(() => {
+                    btn.innerHTML = '<i class="fas fa-copy"></i> Copy';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
